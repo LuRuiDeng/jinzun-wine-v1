@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>获取视频第一帧</title>
+</head>
+<body>
+  <video id="myVideo" src="video/2.mp4" controls></video>
+  <canvas id="myCanvas" style="display: none;"></canvas>
+  <img id="firstFrameImage" src="" alt="First Frame">
+
+  <script>
+
+         // 当视频加载完成后执行函数
+    document.getElementById('myVideo').addEventListener('loadeddata', function() {
+        let dataURL = '';
+            const video = document.createElement("myVideo");
+            // video.setAttribute('crossorigin', 'anonymous'); //处理跨域
+            video.setAttribute('width', "100%");
+            video.setAttribute('height', "60px");
+            video.setAttribute('controls', 'controls');
+            video.autoplay = true
+            video.currentTime = 1;  //视频时长，一定要设置，不然大概率白屏
+            video.muted = true
+            video.playsInline = true
+
+            video.controls = true
+
+            video.preload = "auto"
+            video.crossOrigin = "anonymous"
+            video.disablePictureInPicture = true
+                let canvas = document.createElement("myCanvas");
+                canvas.width = 400;
+                canvas.height = 600;
+                // canvas.height = 80;
+                canvas.getContext("2d").drawImage(video, 0, 0, 400, 600); //绘制canvas
+                dataURL = canvas.toDataURL('image/png'); //转换为base64
+                // console.log('dataURL', dataURL)
+                console.log('dataURL',dataURL)  
+                video.pause()
+           
+    });
+    
+   
+  </script>
+</body>
+</html>

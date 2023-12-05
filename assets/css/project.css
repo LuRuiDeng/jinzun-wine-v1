@@ -1,0 +1,132 @@
+.headerNav {
+    width: 100%;
+
+}
+
+.headerNav .titleImg {
+    width: 100%;
+    text-align: center;
+}
+
+.headerNav .titleImg img {
+    height: 48px;
+    width: auto;
+}
+
+.headerNav .navBar {
+    padding: 0 18px;
+    width: 100%;
+    height: 36px;
+    position: relative;
+}
+
+.headerNav .navBar .navContent ul {
+    height: 36px;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    background-color: #015dae;
+    list-style: none;
+    white-space: nowrap;
+}
+
+.headerNav .navBar .navContent ul li {
+    display: inline-block;
+    height: 36px;
+    padding: 0 4px;
+    border-left: 1px solid rgba(163, 163, 163, 0.3);
+    text-align: center;
+    color: #fff;
+    line-height: 36px;
+    cursor: pointer;
+
+}
+
+.headerNav .navBar .navContent ul li a:link,
+.headerNav .navBar .navContent ul li a:visited,
+.headerNav .navBar .navContent ul li a:hover,
+.headerNav .navBar .navContent ul li a:active,
+.headerNav .navBar .navContent ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.headerNav .navBar .leftArrow {
+    width: 18px;
+    height: 36px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #015dae;
+}
+
+.headerNav .navBar .rightArrow {
+    width: 18px;
+    height: 36px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #015dae;
+    border-left: 1px solid rgba(163, 163, 163, 0.3);
+}
+
+.headerNav .navBar .leftArrow div,
+.headerNav .navBar .rightArrow div {
+    width: 8px;
+    height: 8px;
+    border: 2px solid white;
+    border-top: none;
+    border-right: none;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin: auto;
+    margin-top: calc(50% + 4px);
+}
+
+.headerNav .navBar .rightArrow div {
+    border: 2px solid white;
+    border-bottom: none;
+    border-left: none;
+}
+
+@media screen and (min-width: 547px) {
+    .headerNav .navBar .navContent ul {
+        overflow: hidden;
+
+    }
+}
+
+.iframeContent{
+    height: calc(100% - 145px);
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.footerDiv{
+    position: fixed;
+    z-index: 999;
+    bottom: 0;
+    left: 0;
+    height: 56px;
+    width: 100%;
+    background-color: #015dae;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.footerDiv .single img{
+    height: 24px;
+    width: auto;    
+}
+.footerDiv .single{
+    border-right: 1px solid rgba(163, 163, 163, 0.3);
+    text-align: center;
+    width: 25%;
+    font-size: 14px;
+    color:white;
+    &:nth-last-of-type(1){
+        border:none;
+    }
+}

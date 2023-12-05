@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.page-title-box {
+    display: flex;
+    height: 44px;
+    background-color: #c8dae9;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-title-box>.title.center {
+    font-size: 16px;
+    line-height: 44px;
+    text-align: center;
+    padding-right: 64px;
+    overflow: hidden;
+    flex-grow: 1;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.page-title-box>.btn-box {
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 65px;
+    color: #2574b8;
+    text-align: center;
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.btn-box>.arrow-left {
+    position: absolute;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-top: hidden;
+    border-right: hidden;
+    transform: rotate(45deg);
+    width: 21px;
+    height: 21px;
+    left: 13px;
+    top: 4px;
+}
+
+.btn-box>.back-title {
+    margin-left: 21px;
+    padding: 0 8px 0 2px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-left: hidden;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 28px;
+    line-height: 28px;
+}
+
+.page-concent {
+    margin: 0;
+    text-align: center;
+    font-size: 14px;
+    line-height: 28px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.page-concent.no-concent {
+    padding: 40px 20px;
+}
+
+.company-message {
+    margin-top: 1em;
+    padding: 14px 22px 62px;
+    background-color: #c8dae9;
+    font-size: 14px;
+    text-align: left;
+    line-height: 19px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.company-message a {
+    color: #2574b8;
+}
+
+.extra-tab {
+    width: 100%;
+    background-color: #2574b8;
+    height: 35px;
+    margin-top: 50px;
+}
+
+.extra-tab .singleTab {
+    width: 32%;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    border-right: 1px solid white;
+
+    &:nth-last-of-type(1) {
+        border: none;
+    }
+}
+
+.rowDiv {
+    height: 38px;
+    border-top: 1px solid #A7A7AA;
+    border-bottom: 1px solid #A7A7AA;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rowDiv .arrow {
+    width: 8px;
+    height: 8px;
+    border: 2px solid #A7A7AA;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    border-bottom: none;
+    border-left: none;
+}
+
+.list-box {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    height: 80px;
+    text-align: left;
+    font-size: 16px;
+    line-height: 20px;
+    border-bottom: 0.5px solid #A7A7AA;
+
+}
+
+.list-box .text-box {
+    overflow: hidden;
+}
+
+.list-box .text-small {
+    font-size: 12px;
+    color: #666666;
+
+}
+
+.list-box .img-box {
+    margin-right: 10px;
+}
+
+.scroll-page {
+    overflow-y: scroll;
+}
+
+.concent-title {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bolder;
+    line-height: 22px;
+    padding: 16px;
+    word-break: break-all;
+    font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, Verdana, "Microsoft YaHei";
+}
+
+.concent-box {
+    padding: 10px 16px;
+    border-bottom: 1px solid #A7A7AA;
+}
+
+.concent-text {
+    white-space: wrap;
+    text-align: left;
+    color: #666666;
+    font-size: 14px;
+}
+
+.concent-text.big-text {
+    font-size: 16px;
+    color: black;
+    line-height: 180%;
+}

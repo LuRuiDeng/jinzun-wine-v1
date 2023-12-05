@@ -1,0 +1,113 @@
+/* ----------------------------------
+
+Template Name: Digalu - Digital Marketing Agency Template
+Author: validtheme
+Description:
+Version: 1.0
+
+Main Font    : Roboto
+Main Color   : #8A6552
+
+-------------------------------------
+
+[Typography]
+
+Body copy:    15px 'Roboto', sans-serif
+Header:     36px 'Roboto', sans-serif
+Input, textarea:  15px 'Roboto', sans-serif
+Sidebar heading:  20px 'Roboto', sans-serif
+
+>>> TABLE OF CONTENTS:
+=======================
+        
+    01. Template default css
+        - Animations
+        - General
+        - Section Title
+        - Video Button
+        - Typography
+        - Tables
+        - Forms
+        - Buttons
+        - Pagination
+        - Colors
+        - Accordion
+        - Tabs
+    02. Preloader
+    03. Topbar
+    04 Navbar
+        - Navbar Default
+        - Navbar Transparent
+        - Navbar Sticky
+        - Navbar Box
+    05. Banner
+        - Slide Effect
+        - Fade Effect
+    06. Features
+    07. About Us
+        - Full Width Version
+        - Default Version
+    08. Services
+        - Version One
+        - Version Two
+        - Version Three
+    09. Why Choose Us
+    10. Company Analysis/Graph
+    11. Companies/Clients/Partner
+    12. Team
+    13. Testimonials
+    14. Projects
+    15. Gallery
+    16. Our Expertise
+    17. Work Process
+    18. FAQ
+    19. Blog
+        - Standard
+        - Left Sidebar
+        - Right Sidebar
+        - Single
+    20. Error 404
+    21. Footer
+    22. PHP Contact Form
+    23. Others
+
+*/
+
+/*
+** General Styles for HTML tags
+*/
+#preloader {
+    display: none;
+}
+
+.indexbanner{
+    width: 100%;
+    margin: 0 auto;
+}
+.indexbanner img {
+    width: 100%;
+    max-width: 100% !important;
+}
+
+/*banner区域*/
+.navbar-brand .logo-display{
+    margin-left: -90px;
+}
+
+.banner-style-one h2{
+    font-size: 40px;
+}
+.banner-style-one .content .thumb,.banner-style-one .content .info{
+    margin-bottom: 0;
+}
+
+.pages-box{
+overflow: hidden;
+text-overflow: ellipsis;
+/* 弹性伸缩盒子模型显示 */
+display: -webkit-box;
+/* 限制在一个块元素显示的文本的行数 */
+-webkit-line-clamp: 13;
+/* 设置或检索伸缩盒对象的子元素的排列方式 */
+-webkit-box-orient: vertical;
+}
