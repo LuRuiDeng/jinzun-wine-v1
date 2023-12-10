@@ -169,4 +169,30 @@ footer .f-items{
         width: 100%;
         min-height: 200px;
     }
+    .projectImg{
+        width: 110% !important;
+        height: 110% !important;
+    }
+    .index-pages-box div{
+         text-align: left;
+    }
+    .index-pages-title{
+        text-align: left;
+    }
+    .imgDiv{
+        height: 500px;
+    }
+    .imgDiv img{
+        width: 100%;
+        height: 500px;
+    }
+    .loopDiv{
+        height: 500px;
+    }
+    .sliderDiv{
+        height: 500px;
+    }
+    .imgDiv .imgTxt{
+        bottom: 40px;
+    }
 }
