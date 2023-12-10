@@ -111,3 +111,62 @@ display: -webkit-box;
 /* 设置或检索伸缩盒对象的子元素的排列方式 */
 -webkit-box-orient: vertical;
 }
+
+.default-padding.bottom-less{
+ padding-top: 80px;
+  padding-bottom: 80px;
+}
+.default-padding-top{
+    padding-top: 0px;
+}
+.default-padding-top.bottom-less{
+ padding-bottom: 80px;
+ margin-bottom: 0px;
+}
+
+.site-heading{
+    margin-bottom: 40px;
+}
+.default-padding{
+    padding-bottom: 0px;
+    padding-top: 80px;
+}
+.blog-area .single-item{
+    margin-bottom: 0px;
+}
+
+footer .f-items{
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+/* @media only screen and (max-width: 767px){
+    .default-padding.bottom-less {
+        padding-top: 0px;
+    }
+} */
+.amap-icon img,
+.amap-marker-content img{
+    width: 25px;
+    height: 34px;
+}
+    .marker {
+    position: absolute;
+    top: -20px;
+    right: -82px;
+    color: #fff;
+    padding: 4px 10px;
+    box-shadow: 1px 1px 1px rgba(10, 10, 10, .2);
+    white-space: nowrap;
+    font-size: 12px;
+    font-family: "";
+    background-color: #25A5F7;
+    border-radius: 3px;
+}
+
+@media (max-width: 767px){
+    #container1{
+        width: 100%;
+        min-height: 200px;
+    }
+}

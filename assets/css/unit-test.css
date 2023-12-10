@@ -183,10 +183,10 @@ button.btn:hover::after {
 	margin-top: 15px;
 }
 
-.blog-area h1, 
-.blog-area h2, 
-.blog-area h3, 
-.blog-area h5, 
+.blog-area h1,
+.blog-area h2,
+.blog-area h3,
+.blog-area h5,
 .blog-area h6 {
 	font-weight: 600;
 }
@@ -648,14 +648,14 @@ button.btn:hover::after {
 	font-weight: 3;
 }
 
-.blog-area.single .info > ul {
+.blog-area.single .info>ul {
 	margin-bottom: 25px;
 	margin-top: 25px;
 	list-style: disc;
 	padding-left: 20px;
 }
 
-.blog-area.single .info > ul li {
+.blog-area.single .info>ul li {
 	list-style: disc;
 }
 
@@ -710,7 +710,7 @@ button.btn:hover::after {
 .responsive-video {
 	position: relative;
 	padding-bottom: 56.25%;
-  /* 16:9 */
+	/* 16:9 */
 	padding-top: 25px;
 	height: 0;
 }
@@ -900,7 +900,7 @@ button.btn:hover::after {
 	width: 100%;
 }
 
-.post-pagi-area > div {
+.post-pagi-area>div {
 	width: 50%;
 	margin-right: 15px;
 }
@@ -928,14 +928,14 @@ button.btn:hover::after {
 	color: var(--color-primary);
 }
 
-.post-pagi-area > div:nth-child(2) {
+.post-pagi-area>div:nth-child(2) {
 	text-align: right;
 	margin-right: 0;
 	margin-left: 15px;
 }
 
 .post-pagi-area h5,
-  .breadcrumb-area h2 {
+.breadcrumb-area h2 {
 	word-break: break-word;
 }
 
@@ -983,16 +983,16 @@ button.btn:hover::after {
 	letter-spacing: 0.6px;
 }
 
-.post-pagi-area > div:nth-child(2) a {
+.post-pagi-area>div:nth-child(2) a {
 	justify-content: right;
 }
 
-.post-pagi-area > div:nth-child(2) a .icon {
+.post-pagi-area>div:nth-child(2) a .icon {
 	margin-right: 0;
 	margin-left: 15px;
 }
 
-  /* Comments */
+/* Comments */
 
 .blog-comments {
 	float: left;
@@ -1337,7 +1337,7 @@ button.btn:hover::after {
 		right: inherit;
 	}
 
-	.post-pagi-area > div:nth-child(2) a .icon {
+	.post-pagi-area>div:nth-child(2) a .icon {
 		margin-left: 5px;
 	}
 
@@ -1355,13 +1355,13 @@ button.btn:hover::after {
 		color: var(--color-heading);
 	}
 
-	.post-pagi-area > div:nth-child(2) a {
+	.post-pagi-area>div:nth-child(2) a {
 		justify-content: center;
 	}
 }
 
 @media (max-width: 450px) {
-	.post-pagi-area > div {
+	.post-pagi-area>div {
 		width: 100%;
 	}
 
@@ -1369,8 +1369,92 @@ button.btn:hover::after {
 		display: block;
 	}
 
-	.post-pagi-area > div:nth-child(2) {
+	.post-pagi-area>div:nth-child(2) {
 		margin: 0;
 		margin-top: 15px;
 	}
+}
+
+/* 轮播图 */
+@media (max-width: 767px) {
+	.loopOuterDiv {
+		padding: 0 !important;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+	.loopOuterDiv {
+		padding: 0 !important;
+		position: relative;
+	}
+}
+
+.loopOuterDiv {
+	padding: 0 !important;
+	position: relative;
+}
+
+.loopDiv {
+	width: 100%;
+	height: 600px;
+	overflow: hidden;
+	margin: auto;
+}
+
+.sliderDiv {
+	width: 300%;
+	height: 600px;
+	display: flex;
+	transition: transform 1s ease;
+}
+
+.imgDiv {
+	width: 100%;
+	height: 600px;
+	overflow: hidden;
+	position: relative;
+}
+
+.imgDiv .imgTxt {
+	/* background-color: rgba(255, 255, 255, 0.8); */
+	background-color: rgb(0 0 0 / 10%);
+	width: 70%;
+	position: absolute;
+	z-index: 2;
+	bottom: 60px;
+	left: 15%;
+	/* color: black; */
+	color:white;
+	text-align: left;
+	font-size: 18px;
+	font-weight: bold;
+	padding:10px;
+	border-radius: 4px;
+}
+
+.imgDiv img {
+	width: 100%;
+	height: 600px;
+	object-fit: cover;
+}
+
+.dots {
+	position: absolute;
+	bottom: 10px;
+	left: calc(50% - 24px)
+}
+
+/* 圆点 */
+.dots ul li {
+	display: inline-block;
+	width: 6px;
+	height: 6px;
+	border: 1px solid white;
+	border-radius: 6px;
+	margin-right: 8px;
+}
+
+/* 首页样式修改 */
+.banner-style-one .content1 {
+	padding-top: 100px;
 }

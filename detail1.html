@@ -29,7 +29,7 @@
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
     <!-- ========== End Stylesheet ========== -->
-
+    <script src="https://webapi.amap.com/maps?v=2.0&key=b2e6f995b9d9b317a3fc7f4fd54a73fa"></script>
 </head>
 
 <body>
@@ -38,172 +38,11 @@
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
     <![endif]-->
 
-    <!-- Start Preloader 
-    ============================================= -->
-    <div id="preloader">
-        <div id="ambrox-preloader" class="ambrox-preloader">
-            <div class="animation-preloader">
-                <div class="spinner"></div>
-                <div class="txt-loading">
-                    <span data-text-preloader="D" class="letters-loading">
-                        D
-                    </span>
-                    <span data-text-preloader="I" class="letters-loading">
-                        I
-                    </span>
-                    <span data-text-preloader="G" class="letters-loading">
-                        G
-                    </span>
-                    <span data-text-preloader="A" class="letters-loading">
-                        A
-                    </span>
-                    <span data-text-preloader="L" class="letters-loading">
-                        L
-                    </span>
-                    <span data-text-preloader="U" class="letters-loading">
-                        U
-                    </span>
-                </div>
-            </div>
-            <div class="loader">
-                <div class="row">
-                    <div class="col-3 loader-section section-left">
-                        <div class="bg"></div>
-                    </div>
-                    <div class="col-3 loader-section section-left">
-                        <div class="bg"></div>
-                    </div>
-                    <div class="col-3 loader-section section-right">
-                        <div class="bg"></div>
-                    </div>
-                    <div class="col-3 loader-section section-right">
-                        <div class="bg"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Preloader -->
-
-    <!-- Header 
-    ============================================= -->
-    <header>
-        <!-- Start Navigation -->
-        <nav class="navbar mobile-sidenav navbar-sticky navbar-default validnavs navbar-fixed dark no-background">
-
-            <div class="container d-flex justify-content-between align-items-center">            
-
-                <!-- Start Header Navigation -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-                        <i class="fa fa-bars"></i>
-                    </button>
-                    <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" class="logo" alt="Logo"></a>
-                </div>
-                <!-- End Header Navigation -->
-
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="navbar-menu">
-
-                    <img src="assets/img/logo.png" alt="Logo">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-                        <i class="fa fa-times"></i>
-                    </button>
-                    
-                    <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown" >Home</a>
-                            <ul class="dropdown-menu">
-                                <li><a href="index.html">Marketing Agency</a></li>
-                                <li><a href="index-2.html">Digital Marketing</a></li>
-                                <li><a href="index-6.html">Corporate Business</a></li>
-                                <li><a href="index-5.html">Consulting Business</a></li>
-                                <li><a href="index-3.html">SEO Company</a></li>
-                                <li><a href="index-4.html">Digital Agency</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Pages</a>
-                            <ul class="dropdown-menu">
-                                <li><a href="about-us.html">About Us</a></li>
-                                <li><a href="team.html">Team</a></li>
-                                <li><a href="team-details.html">Team Details</a></li>
-                                <li><a href="faq.html">FAQ</a></li>
-                                <li><a href="contact-us.html">Contact Us</a></li>
-                                <li><a href="404.html">Error Page</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a href="project.html" class="dropdown-toggle" data-toggle="dropdown" >Projects</a>
-                            <ul class="dropdown-menu">
-                                <li><a href="project.html">Project style one</a></li>
-                                <li><a href="project-details.html">Project Details</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Services</a>
-                            <ul class="dropdown-menu">
-                                <li><a href="services.html">Services Version One</a></li>
-                                <li><a href="services-2.html">Services Version Two</a></li>
-                                <li><a href="services-details.html">Services Details</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Blog</a>
-                            <ul class="dropdown-menu">
-                                <li><a href="blog-standard.html">Blog Standard</a></li>
-                                <li><a href="blog-with-sidebar.html">Blog With Sidebar</a></li>
-                                <li><a href="blog-2-colum.html">Blog Grid Two Colum</a></li>
-                                <li><a href="blog-3-colum.html">Blog Grid Three Colum</a></li>
-                                <li><a href="blog-single.html">Blog Single</a></li>
-                                <li><a href="blog-single-with-sidebar.html">Blog Single With Sidebar</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="contact-us.html">contact</a></li>
-                    </ul>
-                </div><!-- /.navbar-collapse -->
-
-                <div class="attr-right">
-                    <!-- Start Atribute Navigation -->
-                    <div class="attr-nav">
-                        <ul>
-                            <li class="button"><a href="#">Get Started</a></li>
-                        </ul>
-                    </div>
-                    <!-- End Atribute Navigation -->
-                </div>
-            </div> 
-            
-            <!-- Overlay screen for menu -->
-            <div class="overlay-screen"></div>
-            <!-- End Overlay screen for menu -->
-        </nav>
-        <!-- End Navigation -->
-    </header>
-    <!-- End Header -->
-
-     <!-- Start Breadcrumb 
-    ============================================= -->
-    <div class="breadcrumb-area text-center bg-gray" style="background-image: url(assets/img/shape/breadcrumb.png);">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2">
-                    <h1>Email marketing & research</h1>
-                    <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb">
-                            <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
-                            <li class="active">Project Details</li>
-                        </ol>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </div>
     <!-- End Breadcrumb -->
 
     <!-- Star Project Details Area
     ============================================= -->
-    <div class="project-details-area default-padding">
+    <div class="project-details-area default-padding" style="padding-bottom: 80px;">
         <div class="container">
             <div class="project-details-items">
                 <div class="project-thumb">
@@ -256,36 +95,21 @@
         </div>
     </div>
     <!-- End Project Details Area -->
-
-    <!-- Start Footer 
+  <!-- Start Footer 
     ============================================= -->
     <footer class="bg-dark text-light" style="background-image: url(assets/img/shape/35.png);">
         <div class="container">
             <div class="f-items default-padding">
                 <div class="row">
-                    <div class="col-lg-4 col-md-6 footer-item pr-50 pr-xs-15 pr-md-15">
+                    <div class="col-lg-5 col-md-6 footer-item pr-50 pr-xs-15 pr-md-15">
                         <div class="about">
-                            <img class="logo" src="assets/img/logo-light.png" alt="Logo">
+                            <img class="logo" src="images/logo.png" alt="Logo">
                             <p>
-                                Excellence decisively nay man per impression maximum contrasted remarkably is perfect point. uncommonly solicitude inhabiting projection.
+                                金樽酒厂占地11万余平米，厂房建筑面积2万多平方米，酒厂始终严格秉承茅台镇传统酿造、勾调工艺，年产优质大曲酱香700余吨，常年基酒库存3000余吨，是茅台镇历史悠久的酱香型白酒酿造销售为一体的实体民营企业。 做酱香文化坚定不移的传承者和传播者，用心酿造真传承，匠心酿酒每一滴！ 学酱酒知识，喝正宗酱酒，买实惠好酒
                             </p>
-                            <ul class="footer-social">
-                                <li>
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#"><i class="fab fa-youtube"></i></a>
-                                </li>
-                            </ul>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-6 footer-item">
+                    <!-- <div class="col-lg-2 col-md-6 footer-item">
                         <div class="link">
                             <h4 class="widget-title">Our Services</h4>
                             <ul>
@@ -306,43 +130,41 @@
                                 </li>
                             </ul>
                         </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 footer-item adress-item">
-                        <h4 class="widget-title">Official Info</h4>
+                    </div> -->
+                    <div class="col-lg-3 col-md-4 footer-item adress-item">
+                        <h4 class="widget-title">联系方式:</h4>
                         <div class="address">
                             <ul>
                                 <li>
                                     <div class="content">
-                                        <strong>Address:</strong>
-                                        5919 Trussville Crossings Pkwy, Birmingham
+                                        <strong>地址:</strong>
+                                       深圳市宝安区
                                     </div>
                                 </li>
                                 <li>
                                     <div class="content">
-                                        <strong>Email:</strong>
-                                        <a href="mailto:info@validtheme.com">info@validtheme.com</a>
+                                        <strong>联系人:</strong>
+                                        <a href="">庄生</a>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="content">
-                                        <strong>Phone:</strong>
-                                        <a href="">+123 34598768</a>
+                                        <strong>抖音号:</strong>
+                                        <a href="mailto:info@validtheme.com">1109349959</a>
                                     </div>
                                 </li>
+
+                                <li>
+                                    <div class="content">
+                                        <strong>电话:</strong>
+                                        <a href="">13602528287</a>
+                                    </div>
+                                </li>
+                              
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 footer-item">
-                        <h4 class="widget-title">Newsletter</h4>
-                        <div class="newsletter">
-                            <p>
-                                Join our subscribers list to get the latest news and special offers. 
-                            </p>
-                            <form action="#">
-                                <input type="email" placeholder="Your Email" class="form-control" name="email">
-                                <button type="submit"> Subscribe Now <i class="fa fa-paper-plane"></i></button>  
-                            </form>
-                        </div>
+                    <div class="col-lg-4 col-md-6 footer-item" id="container1">
                     </div>
                 </div>
             </div>
@@ -352,9 +174,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
-                        <p>&copy; Copyright 2023. All Rights Reserved By <a href="http://www.bootstrapmb.com">bootstrapMB</a></p>
+                        <p>&copy; Copyright 2023. All Rights Reserved By 金樽英雄</a></p>
                     </div>
-                    <div class="col-lg-6 text-end">
+                    <!-- <div class="col-lg-6 text-end">
                         <ul>
                             <li>
                                 <a href="about-us.html">Terms</a>
@@ -366,13 +188,12 @@
                                 <a href="contact-us.html">Support</a>
                             </li>
                         </ul>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
         <!-- End Footer Bottom -->
     </footer>
-    <!-- End Footer -->
     
     <!-- jQuery Frameworks
     ============================================= -->
@@ -384,7 +205,7 @@
     <script src="assets/js/modernizr.custom.13711.js"></script>
     <script src="assets/js/swiper-bundle.min.js"></script>
     <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/progress-bar.min.js"></script>
+    <!-- <script src="assets/js/progress-bar.min.js"></script>
     <script src="assets/js/circle-progress.js"></script>
     <script src="assets/js/isotope.pkgd.min.js"></script>
     <script src="assets/js/imagesloaded.pkgd.min.js"></script>
@@ -393,8 +214,9 @@
     <script src="assets/js/jquery.scrolla.min.js"></script>
     <script src="assets/js/YTPlayer.min.js"></script>
     <script src="assets/js/TweenMax.min.js"></script>
-    <script src="assets/js/validnavs.js"></script>
+    <script src="assets/js/validnavs.js"></script> -->
     <script src="assets/js/main.js"></script>
+    <script src="main.js"></script>
 
 </body>
 </html>
